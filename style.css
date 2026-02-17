@@ -3,14 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial;
+    /* border: 1px solid red; */
 }
-
-/* body {
-    background: radial-gradient(circle at center, #3d1a78 0%, #000000 70%);
-    background-attachment: fixed; 
-    margin: 0;
-    padding: 0;
-} */
 
 .master {
     background: radial-gradient(circle, rgba(110, 73, 184, 1) 0%, rgba(0, 0, 0, 1) 42%);
@@ -46,6 +40,10 @@ nav ul li {
     list-style: none;
     font-size: 16px;
     font-weight: 500;
+} 
+
+.menu-btn{
+    display: none;
 }
 
 
@@ -58,6 +56,7 @@ nav ul li {
     border-radius: 30px;
     border: none;
     font-size: 18px;
+    border: 1px solid red;
 }
 
 .btn-design:hover {
@@ -107,11 +106,9 @@ nav ul li {
     margin-top: 50px;
 }
 
-/* .icons-row img{
-    width: 6%;
-    /* height: 5%; */
-*/ .icons-row a {
-    width: 2%;
+
+.icons-row a {
+    width: 20%;
     /* display: inline-block; */
 }
 
@@ -263,4 +260,229 @@ a {
 .section4-content3 a:hover
 {
     color: #541296;
+}
+
+
+@media (max-width:1690px){
+    .btn-design{
+        width: 10%;
+    }
+    .btn3{
+        width: 50%;
+    }
+}
+
+@media (max-width:1460px){
+    .btn-design{
+        width: 12%;
+    }
+    .btn3{
+        width: 55%;
+    }
+}
+
+@media (max-width:1377px) {
+    .section3{
+        width: 20%;
+    }
+} 
+
+@media (max-width:1360px){
+    .btn-design{
+        /* width: 20%; */
+        padding: 0 5px;
+    }
+    .btn3{
+        padding: 15px 0;
+    }
+}
+
+@media (max-width:1343px){
+    .main-text{
+        width: 35%;
+    }
+    .main-form{
+        width: 40%;
+    }
+}
+
+@media (max-width:1279px) {
+    .section4{
+        width: 30%;
+    }
+    .footer-part{
+        padding: 0 12px;
+    }
+} 
+    
+@media (max-width:1200px){
+    .btn-design{
+        width: 13%;
+    }
+    .btn3{
+        width: 60%;
+    }
+}
+
+@media (max-width:1150px){
+    nav ul{
+        width: 45%;
+    }
+}
+
+@media (max-width:1076px){
+    .btn-design{
+        padding: 5px;
+    }
+    .btn-design{
+        padding: 10px;
+    }
+    .main-text{
+        width: 40%;
+    }
+    .main-form{
+        width: 45%;
+    }
+}
+
+@media (max-width:1067px) {
+    .section4{
+        width: 35%;
+    }
+    .footer-part{
+        padding: 0px 15px;
+    }
+} 
+
+@media (max-width:1053px) {
+    .section2{
+        width: 15%;
+    }
+    .footer-part{
+        padding: 0 15px;
+    }
+} 
+
+@media (max-width:1040px) {
+    .footer-part{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section1,.section2,.section3,.section4{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        margin-top: 20px;
+        padding: 0 100px;
+    }
+} 
+
+@media (max-width:1020px){
+    .btn-design{
+        width: 15%;
+    }
+    .btn3{
+        width: 50%;
+    }
+    nav ul{
+        width: 50%;
+    }
+}
+
+@media (max-width:942px){
+    .main-text{
+        width: 45%;
+    }
+    .main-form{
+        width: 45%;
+    }
+    form input, select{
+        width: 90%;
+    }
+}
+
+@media (max-width:918px){
+    nav ul{
+        width: 55%;
+    }
+}
+
+@media (max-width:850px){
+    nav ul{
+        width: 60%;
+    }
+}
+
+@media (max-width:838px){
+   .main{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+   .main-text{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        padding: 0 20px;
+   }
+
+   .main-form{
+        height: auto;
+        width: 100%;
+        padding: 0 20px;
+   }
+
+   form input, select{
+        width: 100%;
+   }
+
+   .icons-row{  
+        width: 70%;
+        display: flex;
+        align-items: center;
+        margin: 0;
+   }
+
+   .icons-row a img{
+        width: 40%;
+        margin-top: 10px;
+   }
+}
+
+@media (max-width:815px){
+    .btn-design{
+        width: 18%;
+        padding: 5px;
+    }
+}
+
+@media (max-width:780px){
+    nav ul{
+        width: 65%;
+    }
+}
+
+@media (max-width:726px){
+    .btn-design{
+        width: 22%;
+    }
+}
+
+@media (max-width:734px){
+    nav ul, .btn-design{
+        display: none;
+    }
+
+    .menu-btn{
+        display: block;
+    }
+
+    nav img{
+        width: 8%;
+    }
+    
 }
